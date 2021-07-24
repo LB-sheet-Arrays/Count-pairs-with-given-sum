@@ -1,5 +1,5 @@
 /*
-Naive Solution – A simple solution is to traverse each element and check if there’s another number in the array 
+Naive Solution â€“ A simple solution is to traverse each element and check if thereâ€™s another number in the array 
 which can be added to it to give sum. using 2 loops i and j=i+1
 
 Time Complexity: O(n2) 
@@ -53,7 +53,10 @@ int main()
 	int arr[] = { 1, 5, 7, -1, 5 };
     int n = sizeof(arr) / sizeof(arr[0]);
     int sum = 6;
-    cout << "\n\nCount of pairs is \n\n"<< getPairsCount(arr, n, sum);
+     if(n>=2)
+    {
+    	cout << "\n\nCount of pairs is \n\n"<< getPairsCount(arr, n, sum);
+    }
     
 	return 0;
 }
