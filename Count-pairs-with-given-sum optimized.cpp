@@ -7,6 +7,9 @@ Auxiliary Space: O(1)
 
 Another approach:
 
+Time Complexity: O(nlogn) 
+Auxiliary Space: O(1)
+
 Sort the array
 use 2 pointer approach
 
